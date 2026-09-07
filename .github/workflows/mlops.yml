@@ -26,11 +26,11 @@ jobs:
 
       - name: Run Data Validation
         run: |
-          python scripts/01_validate_data.py
+          python scripts/01_data_validationa.py
 
       - name: Run Data Preprocessing
         run: |
-          python scripts/02_preprocess_data.py
+          python scripts/02_data_preprocessing.py
 
       - name: Upload Processed Data Artifacts
         uses: actions/upload-artifact@v4
